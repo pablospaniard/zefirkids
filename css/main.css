@@ -1,0 +1,287 @@
+/********************************************************
+PICTURE SIZE - 900 x 600
+********************************************************/
+
+/********************************************************
+GENERAL
+********************************************************/
+@font-face {
+	font-family:'RotondaC';
+	src: url('font/RotondaC.otf');
+}
+
+@font-face {
+	font-family:'RotondaC_Bold';
+	src: url('font/RotondaC_Bold.otf');
+}
+
+body {
+	
+	margin: auto;
+	width: 80%;
+  font-family:'RotondaC', sans-serif;
+}
+
+#wrapper {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 auto;
+	background-color: #ead8c7;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+h3 {
+  margin: 0 0 1em 0;
+	font-family:'RotondaC_Bold', sans-serif;
+}
+
+
+/********************************************************
+HEADING
+********************************************************/
+
+header {
+  float: left;
+  margin: 0 0 30px 0;
+  padding: 5px 0 0 0;
+  width: 100%;
+	background-image: url("img/bg.jpg");
+  background-repeat: repeat-x;
+}
+
+#logo {
+  text-align: center;
+  margin: 0;
+}
+
+
+h1 {
+  font-family:'RotondaC_Bold', sans-serif;
+  margin: 15px 0;
+  font-size: 1.75em;
+  font-weight: normal;
+  line-height: 0.8em;
+}
+
+h2 {
+  font-size: 0.75em;
+  margin: -5px 0 0;
+  font-weight: normal;
+}
+
+
+
+/********************************************************
+NAVIGATION
+********************************************************/
+
+nav {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+	font-family:'RotondaC_Bold', sans-serif;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0 0 10px 0;
+  padding: 0;
+}
+
+nav li {
+  display:inline-block;
+}
+
+nav a {
+  font-weight: 800;
+  padding: 15px 10px;
+}
+
+
+
+/********************************************************
+FOOTER
+********************************************************/
+
+footer {
+	width: auto;
+  font-size: 0.85em;
+  text-align:right;
+	padding-right: 20px;
+	padding-bottom: 1px;
+  clear: both;
+  padding-top: 50px;
+  background-image: url("img/bg.jpg");
+  background-repeat: repeat-x;
+	font-family:'RotondaC_Bold', sans-serif;
+	color: #231f20;
+}
+
+.social-icon1 {
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+} 
+
+.social-icon2 {
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+	padding-right: 48px;
+} 
+
+.copyright {
+  color: #231f20;
+}
+
+
+
+/********************************************************
+PAGE: PORTFOLIO
+********************************************************/
+
+#gallery {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#gallery li {
+  float: left;
+  width: 45%;
+  margin: 2.5%;
+/*  background-color: #f5f5f5;*/
+  color: #dbc3c7;
+/*	max-width: 30%;*/
+}
+
+#gallery li a p {
+  margin: 0;
+  padding: 5%;
+  font-size: 0.75em;
+	color: #fff;
+	text-align: center;
+}
+
+.photo {
+	border-radius: 30px;
+}
+
+
+
+/********************************************************
+PAGE: ABOUT
+********************************************************/
+
+.profile-photo {
+  display: block;
+  max-width: 450px;
+  margin: 0 30px;
+	padding: 0 30px;
+  border-radius: 100px;
+}
+.about{
+	padding: 0 30px;
+	line-height: 2;
+}
+
+
+
+/********************************************************
+PAGE: CONTACT
+********************************************************/
+
+.contact-info {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.9em;
+}
+
+.contact-info a {
+  display: block;
+  min-height: 20px;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  padding: 0 0 0 30px;
+  margin: 0 0 10px;
+}
+
+.contact-info li.phone a {
+  background-image: url('../img/phone.png');
+}
+
+.contact-info li.mail a {
+  background-image: url('../img/mail.png');
+}
+
+.contact-info li.instagram a {
+  background-image: url('../img/instagram.png');
+}
+
+
+
+/********************************************************
+COLORS
+********************************************************/
+
+/* site body */
+/*
+body {
+  background-color: #fff;
+  color: #999;
+}
+*/
+
+/* green header */
+/*
+header {
+  background: #6ab47b;
+  border-color: #599a68;
+}
+*/
+
+/* nav background mobile */
+nav {
+  background: #fff;
+}
+
+/* logo text */
+h1, h2 {
+  color: #fff;
+}
+
+/* links */
+a {
+  color: #718314;
+}
+
+/* nav link */
+nav a, nav a:visited {
+  color: #fff;
+}
+
+/* selected nav link*/
+nav a.selected, nav a:hover {
+  color: #c3d179;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+ 
